@@ -1,0 +1,61 @@
+<!-- HTML 5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoria 01</title>
+    <style>
+        .btn {
+            background-color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Document Object Model --> 
+    <div id="form">
+        <h1 style="color:indigo;"> Formulario de usuario </h1>
+        <div>
+            <label for="fullname">Nombre</label>
+            <input type="text" name="fullname" id="fullname">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="text" name="edad" id="edad">
+        </div>
+        <div>
+            <button class="btn" onclick="addNew()"> Agregar Nuevo </button>
+        </div>
+    </div>
+   
+    <div id="data_list">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> Nombre </th>
+                    <th> Email </th>
+                    <th> Edad </th>
+                    <th> Action </th>
+                </tr>
+            </thead>
+            <tbody id="user_data_list">
+                <!-- tr -->
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>Edad Menor <span id="edad_menor"></span> </h1>
+        <h1>Edad Mayor <span id="edad_mayor"></span> </h1>
+    </div>
+    <script src="assets/main.js"></script>
+</body>
+<footer>
+
+</footer>
+</html>

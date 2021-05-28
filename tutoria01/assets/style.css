@@ -1,0 +1,40 @@
+#form input {
+    display: block;
+}
+
+#form div {
+    margin-top: 15px;
+}
+
+#form label {
+    font-weight: 700;
+}
+
+#form input:focus {
+    background-color: lightblue;
+    color: white;
+}
+
+.btn {
+    padding: 15px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: indigo;
+    color: gold;
+    cursor: pointer;
+}
+
+#form, #data_list {
+    float: left;
+    margin: 50px;
+}
+
+#form h1 {
+    text-shadow: 10px 8px 8px gold;
+}
+
+table th {
+    padding: 15px;
+}
